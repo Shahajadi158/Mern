@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+  <script>
+    let text="chalapathi engg college located in guntur";
+    let len=text.length;
+    document.write(len);
+    document.write("<br>");
+    let pos=text.charAt(0);
+    document.write(pos);
+    document.write("<br>");
+    let sli=text.slice(7,13);
+    document.write(sli);
+    document.write("<br>");
+    let str1= "Apple, Banana, Kiwi";
+    document.write(str1.substring(7,13));
+    document.write("<br>");
+    let str2= "Apple, Guavas, Kiwi";
+    document.write(str2.substr(7,6));
+    document.write("<br>");
+    let text1 = "H,e,l,l,o";
+    let text2 = "World!";
+    let text3 = text1.concat(" ",text2);
+    document.write(text3);
+    document.write("<br>");
+    let text4= "     Hello World!     ";
+    let text5= text1.trim();
+
+    document.write("Length text4 = " + text4.length + "<br>Length text5 = " + text5.length);
+    document.write("<br>");
+    const myArray = text1.split(",");
+    document.write(myArray[0]);
+
+
+  </script>
+</body>
+</html>
