@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script>
+		var a=5,b=10,c=15,d=20,e=-5;
+		var result=(a>b && a>c && a>c && a>d && a>d)?a:(b>c && b>d && b>e)?b:(c>d && c>e)?c:(d>e)?d:e;
+		document.write(result);
+		document.write("<br>");
+		const fruits = ["Banana", "Orange", "Apple", "Mango"];
+		const vegetables = ["tomato","potato","drumstick"];
+		const nonveg = ["meat","fish","egg"];
+		const myArr = [[1,2],[3,4],[5,6]];
+		const newArr = myArr.flat();
+		let size=fruits.length;
+		document.write("length: "+size);
+		document.write("<br>");
+		document.write(fruits.toString());
+		document.write("<br>");
+		let fruit = fruits[2];
+		document.write(fruit);
+		document.write("<br>");
+		document.write(fruits.join(" * "));
+		document.write("<br>");
+		document.write(fruits.pop());
+		document.write("<br>");
+		document.write(fruits.push("Kiwi"));
+		document.write("<br>");
+		document.write(fruits.concat(vegetables));
+		document.write("<br>");
+		document.write(fruits.concat(vegetables,nonveg));
+		document.write("<br>");
+		document.write(fruits.copyWithin(2,0));
+		document.write("<br>");
+		document.write(newArr);
+		document.write("<br>");
+		document.write(fruits.splice(2, 0, "Lemon", "Kiwi"));
+		document.write("<br>");
+
+
+	</script>
+</body>
+</html>

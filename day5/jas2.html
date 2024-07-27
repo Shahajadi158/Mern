@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+	<button onclick="reena()">click me</button>
+	<p id="mango">Do u have girl friend or not?</p>
+	<script>
+		function reena()
+		{
+			var a;//declaration
+			if(confirm('Tell me your answer')){
+				a="Yes am waiting for girl friend";
+			}
+			else{
+				a="NO dear,am always solo";
+			}
+			document.getElmentById('mango').innerHTML=a;
+		}
+	</script>
+</body>
+</html>
